@@ -849,7 +849,7 @@ let () =
       ~extra:[
         {
           name = "android";
-          found = !Arguments.android_target = Some true;
+          found = true;
         };
         {
           name = "libev_default";
